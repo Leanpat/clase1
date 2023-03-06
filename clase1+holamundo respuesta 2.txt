@@ -1,0 +1,23 @@
+package paquete1;
+
+public class archipaquete {
+
+	public static void main(String[] args) {
+		System.out.println("hola mundo");
+		float ingresos = 489099;
+		int vehiculos = 2;
+		int inmuebles = 3;
+		boolean economiaplena = true;
+		
+		if ( (ingresos >= 489083) && ( vehiculos >= 3) &&(inmuebles >= 3)&& (economiaplena==true)) {
+		System.out.println("Categoria A");}
+        if((ingresos >= 489083) || ( vehiculos >= 3) ||(inmuebles >= 3)|| (economiaplena==true)) {
+		System.out.println("Categoria B");}
+		if((ingresos < 489083) && ( vehiculos < 3) && (inmuebles <3) && (economiaplena!=true)) {
+		System.out.println("Categoria C");}
+
+		// TODO Auto-generated method stub
+
+	}
+
+}
